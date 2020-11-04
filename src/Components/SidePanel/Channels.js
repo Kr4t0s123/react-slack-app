@@ -157,6 +157,7 @@ class Channels extends Component {
         if(count > 0) return count;
     }
 
+    
     displayChannles=(channels)=>(
         channels.length > 0 && channels.map(channel => 
             <Menu.Item 
